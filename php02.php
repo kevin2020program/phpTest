@@ -2,9 +2,9 @@
 
 $name = "Kevin";
 if ($name = "Kevin") {
-  echo "私はKevinです";
+  echo "私は" . $name . "です";
 } else {
-  echo "Kevinではありません";
+  echo $name .  "ではありません";
 }
 
 $total = 0;
